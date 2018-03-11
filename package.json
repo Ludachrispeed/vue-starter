@@ -1,0 +1,26 @@
+{
+  "name": "vue-starter",
+  "description": "Vue.js starter project",
+  "version": "1.0.0",
+  "author": "Chris Clark <ludachrispeed@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
+  },
+  "dependencies": {
+    "vue": "^2.5.15"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.15",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
