@@ -1,4 +1,12 @@
-``` bash
+Includes
+--------
+
+- Webpack 4
+
+Use
+---
+
+```
 yarn install
 
 # create app in dist directory
