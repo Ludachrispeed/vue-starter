@@ -1,6 +1,8 @@
 <template>
 <div id="sidebar">
   <h1>{{msg}}</h1>
+  <router-link to="/foo">Go to Foo</router-link>
+  <router-link to="/bar">Go to Bar</router-link>
 </div>
 </template>
 
@@ -9,7 +11,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Sidebar Component msg'
+      msg: 'Sidebar Component'
     }
   }
 }
@@ -17,7 +19,7 @@ export default {
 
 <style>
 #sidebar {
-  color: #A122FF;
+  border: 1px solid green;
 }
 
 a {
