@@ -3,7 +3,6 @@ import VueRouter from 'vue-router';
 import App from './App.vue';
 import Foo from './components/Foo.vue';
 import Bar from './components/Bar.vue';
-import './index.scss';
 
 Vue.use(VueRouter);
 
