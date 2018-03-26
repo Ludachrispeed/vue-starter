@@ -19,6 +19,5 @@ export default {
 <style>
 #main {
   border: 1px solid red;
-  text-align: center;
 }
 </style>

@@ -20,20 +20,11 @@ export default {
   components: {
     Sidebar,
     Main
-  },
-  data () {
-    return {
-      msg: 'App Component msg'
-    }
   }
 }
 </script>
 
 <style>
-#app {
-  color: #2c3e50;
-}
-
 a {
   color: #42b983;
 }

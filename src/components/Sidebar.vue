@@ -1,28 +1,21 @@
 <template>
-<div id="sidebar">
-  <h1>{{msg}}</h1>
-  <router-link to="/foo">Go to Foo</router-link>
-  <router-link to="/bar">Go to Bar</router-link>
+<div id="sidebar" class="bg-secondary">
+  <h1>Sidebar</h1>
+  <ul>
+  <li><router-link to="/foo">Go to Foo</router-link></li>
+  <li><router-link to="/bar">Go to Bar</router-link></li>
+  </ul>
 </div>
 </template>
 
-<script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Sidebar Component'
-    }
-  }
-}
-</script>
-
 <style>
 #sidebar {
-  border: 1px solid green;
+  padding: 1em;
 }
 
-a {
-  color: #42b983;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 </style>
