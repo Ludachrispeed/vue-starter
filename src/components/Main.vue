@@ -1,20 +1,9 @@
 <template>
 <div id="main">
-  <h1>{{msg}}</h1>
+  <h1>Main</h1>
   <router-view></router-view>
 </div>
 </template>
-
-<script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Main Component'
-    }
-  }
-}
-</script>
 
 <style>
 #main {
