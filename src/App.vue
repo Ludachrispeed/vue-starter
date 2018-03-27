@@ -1,10 +1,10 @@
 <template>
 <div id="app" class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
+    <div id="sidebar-container" class="col-md-3 bg-secondary">
       <Sidebar/>
     </div>
-    <div class="col-md-10">
+    <div id="main-container" class="col-md-9">
       <Main/>
     </div>
   </div>

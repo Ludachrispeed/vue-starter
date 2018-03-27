@@ -1,7 +1,7 @@
 <template>
-<div id="sidebar" class="bg-secondary">
+<div id="sidebar">
   <h1>Sidebar</h1>
-  <ul>
+  <ul class="list-unstyled">
     <li><router-link to="/">Home</router-link></li>
     <li><router-link to="/foo">Foo</router-link></li>
     <li><router-link to="/bar">Bar</router-link></li>
@@ -12,11 +12,5 @@
 <style>
 #sidebar {
   padding: 1em;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 </style>
