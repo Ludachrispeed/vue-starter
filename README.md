@@ -3,6 +3,7 @@ Includes
 
 - Webpack 4
 - Bootstrap 4
+- vue-router
 
 Use
 ---
